@@ -37,7 +37,7 @@ def pregunta(nivel):
 
 @app.route('/fin')
 def fin():
-    return "<h1>🎉 ¡Felicidades! Has completado el recorrido por las ciudades de Colombia. 🇨🇴</h1>"
+    return "<h1>🎉 ¡Felicidades! Has completado el recorrido por las ciudades de Colombia hasta llegar a Cucuta</h1>"
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=81)
