@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Descubriendo Ciudades</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; text-align: center; margin-top: 100px; background: #f4f8fc; }
+        a { text-decoration: none; color: white; background: #1d72b8; padding: 12px 20px; border-radius: 8px; }
+        a:hover { background: #155a8a; }
+    </style>
+</head>
+<body>
+    <h1>🏙️ Bienvenido a "Descubriendo Ciudades"</h1>
+    <p>Viaja por las principales ciudades de Colombia respondiendo preguntas sobre el lenguaje.</p>
+    <a href="{{ url_for('pregunta', nivel=1) }}">Comenzar juego</a>
+</body>
+</html>
